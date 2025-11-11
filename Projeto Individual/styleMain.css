@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #C0C0C0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #C0C0C0;
+    width: 100%;
+}
+
+.titulo1{
+    font-size: larger;
+     color: #E85C70;
+    margin-left: 3%;
+}
+
+.botoes{
+    margin-top: 2%;
+    margin-left: 60%;
+}
+.botoes button{
+    margin-right: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.botoes span{
+      font-weight: bold;
+        text-decoration: underline;
+    color: #E85C70;
+    font-size: 20px;
+}
+
+.linha{
+  background-color: #E85C70;
+  height: 3px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+    margin-bottom: 0px;
+}
+
+.texto{
+    margin-top: -20px;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.MainIMG{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://m.media-amazon.com/images/I/81D1orYEzSL.jpg");
+    background-position: center; 
+}
+
+.linha2{
+  background-color: #E85C70;
+  height: 3px;
+  margin-bottom: 0%;
+}
+
+.text{
+    margin-top: -3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30vh;
+}
+
+.text span{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #EDEDED; 
+  background: rgba(10, 10, 10, 0.6); 
+  padding: 50px;
+  border-left: 3px solid #E85C70; 
+  max-width: 900px;
+margin-top: 3%;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px); 
+   min-height: 470px;
+}
+
+.fotoText{
+    margin-top: 3%;
+    width: 55%;
+    height: 61vh;
+    background-image: url("https://imageswscdn.wslojas.com.br/files/25539/MED_PROD_625037158751.jpg");
+    background-position: center; 
+     border-right: 3px solid #E85C70; 
+}
+
+.footer {
+  margin-top: 18%;
+  background: rgba(20, 20, 20, 0.85);
+  backdrop-filter: blur(6px);
+  color: #EDEDED;
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 2px solid #E85C70; /* tom rosado característico */
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 -10px 20px rgba(255, 255, 255, 0.05);
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.footer strong {
+  color: #E85C70;
+}
+
+
