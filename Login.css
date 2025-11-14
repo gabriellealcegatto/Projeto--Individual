@@ -1,0 +1,63 @@
+body {
+    height: 90vh;
+    width: 100%;
+    background-image: url("https://img.joomcdn.net/1ecbed4e7cad1de54de5e5b8109cea0e77d80761_1024_1024.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.containerPri{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro{
+    background-color: black;
+    width: 55%;
+    height: 70%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://m.media-amazon.com/images/I/81H05-cnPVL.jpg");
+    background-size: 53% 100%;
+    background-repeat: no-repeat;
+}
+
+.cadastro span{
+    margin-left: 25%;
+    color: #e6dcdc;
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cadastro input{
+    margin-left: 45%;
+    width: 35%;
+    border: 3px solid #e6dcdc;
+    border-radius: 12px;
+    background-color: rgb(7, 6, 6);
+}
+
+
+.cadastro button{
+    margin-left: 45%;
+    border-radius: 12px;
+    height: 30px;
+    width: 12%;
+    color: #e6dcdc;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.cadastro h2{
+    color: black;
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.5%;
+}
+
