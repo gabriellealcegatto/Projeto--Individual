@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\Users\PICHAU\OneDrive\Desktop\Projeto Individual\Projeto Individual\Cadastro.css">
+    <link rel="stylesheet" href="C:\Users\PICHAU\OneDrive\Desktop\Projeto Individual\Projeto Individual\login.css">
     <title>Document</title>
 </head>
 <body>
-
      <div class="header">
             <div class="titulo1">
                 <h1>Marilyn Manson</h1>
@@ -19,34 +18,26 @@
             <button onclick="sobre()"><span>Sobre</span></button>
         </div>
         </div>
-
-
 <div class="containerPri">
 
-    <div class="cadastro">
-        <span>Nome:</span><br>
-        <input type="text" id="nome_cadastro"><br>
+    <div class="login">
         <span>Email:</span><br>
         <input type="text" id="email_cadastro"><br>
-        <span>CEP:</span><br>
-        <input type="number" id="cep_cadastro"><br>
-        <span>Endereço</span><br>
-        <input type="text" id="endereco_cadastro"><br>
         <span>Senha:</span><br>
         <input type="text" id="senha_cadastro"><br>
-        <span>Confirmar Senha:</span><br>
-        <input type="text" id="confirmar_cadastro"><br>
-        <button onclick="cadastrar()"><h2>Cadastrar</h2></button>
+        <button onclick="logar()"><h2>Login</h2></button><br>
+        <div class="msgm">
+        <span>Ainda não tem uma conta? </span><button onclick="clicar()"><h2>Cliaque aqui<h2></button>
+        </div>
     </div>
 </div>
 </body>
 </html>
 
 <script>
-function entrar(){
-      window.location.href = "TelaLogin.html"
-}
 
-</script>
+function clicar(){
+        window.location.href = "Cadastrar.html"
+}
 
 </script>
